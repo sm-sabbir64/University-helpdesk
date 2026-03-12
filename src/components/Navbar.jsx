@@ -17,7 +17,6 @@ const Navbar = () => {
             <a href="#" className="text-gray-600">
               Students
             </a>
-
             <a href="#" className="text-gray-600">
               Contact
             </a>
