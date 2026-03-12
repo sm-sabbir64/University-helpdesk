@@ -1,9 +1,10 @@
+import Container from "./Container";
 
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 px-8 py-12 ">
-      
-        <div className="grid md:grid-cols-5 gap-8 container mx-auto">
+      <Container>
+         <div className="grid md:grid-cols-5 gap-8 container mx-auto">
           <div>
             <h3 className="text-white font-semibold mb-2">
               University — Assignment System
@@ -52,6 +53,8 @@ const Footer = () => {
           © 2025 University — Assignment System.
           <br className="block md:hidden" /> All rights reserved.
         </div>
+      </Container>
+       
       
     </footer>
   );

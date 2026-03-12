@@ -1,3 +1,5 @@
+
+import Buttons from "./components/Buttons";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -7,6 +9,7 @@ const App = () => {
     <div>
       <Navbar></Navbar>
 
+      {/* Box design*/}
       <Container>
         <div className="grid grid-cols-3 gap-5 my-12 mx-8">
           <div className="rounded-md p-7 text-white h-62 bg-gray-600 flex flex-col justify-center items-center">
@@ -23,6 +26,9 @@ const App = () => {
           </div>
         </div>
       </Container>
+
+      {/* Toggle buttons */}
+     <Buttons></Buttons>
 
       <Footer></Footer>
     </div>
