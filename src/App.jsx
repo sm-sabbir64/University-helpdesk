@@ -1,8 +1,7 @@
-
-import Buttons from "./components/Buttons";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Toggle_btns from "./components/Toggle_btns";
 
 const App = () => {
   return (
@@ -28,7 +27,7 @@ const App = () => {
       </Container>
 
       {/* Toggle buttons */}
-     <Buttons></Buttons>
+     <Toggle_btns></Toggle_btns>
 
       <Footer></Footer>
     </div>

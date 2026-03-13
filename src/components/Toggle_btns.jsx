@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Container from "./Container";
 
-const Buttons = () => {
+const Toggle_btns = () => {
   const [toggleStatus, setToggleStatus] = useState("All");
 
   console.log(toggleStatus);
@@ -38,4 +38,4 @@ const Buttons = () => {
   );
 };
 
-export default Buttons;
+export default Toggle_btns;
