@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 px-8 py-12 ">
       <Container>
-         <div className="grid md:grid-cols-5 gap-8 container mx-auto">
+         <div className="grid md:grid-cols-5 gap-8 container mx-auto my-12 mx-8">
           <div>
             <h3 className="text-white font-semibold mb-2">
               University — Assignment System

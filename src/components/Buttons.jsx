@@ -3,7 +3,7 @@ import Container from "./Container";
 const Buttons = () => {
     return (
         <Container>
-             <div className="flex justify-end gap-1 mb-12">
+             <div className="flex justify-end gap-1 mb-12 my-12 mx-8">
           <button className="bg-purple-100 text-purple-500 px-4 py-1 font-semibold text-lg rounded-l-lg cursor-pointer">
             All
           </button>
