@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState, use } from "react";
 import Container from "./Container";
 
-const Toggle_btns = () => {
+const Toggle_btns = ({ fetchPromise }) => {
   const [toggleStatus, setToggleStatus] = useState("All");
-
-  console.log(toggleStatus);
+  const intialData = use(fetchPromise);
+  console.log(intialData);
 
   return (
     <Container>

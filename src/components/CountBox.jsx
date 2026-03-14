@@ -2,8 +2,7 @@ import Container from "./Container";
 
 const CountBox = () => {
   return (
-    <>
-      {/* Box design*/}
+    <> 
       <Container>
         <div className="grid grid-cols-3 gap-5 my-12 mx-8">
           <div className="rounded-md p-7 text-white h-62 bg-gray-600 flex flex-col justify-center items-center">
