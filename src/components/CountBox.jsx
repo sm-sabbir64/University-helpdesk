@@ -1,6 +1,6 @@
 import Container from "./Container";
 
-const IssuesManagement = () => {
+const CountBox = () => {
   return (
     <>
       {/* Box design*/}
@@ -24,4 +24,4 @@ const IssuesManagement = () => {
   );
 };
 
-export default IssuesManagement;
+export default CountBox;

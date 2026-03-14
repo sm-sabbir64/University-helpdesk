@@ -1,14 +1,15 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Toggle_btns from "./components/Toggle_btns";
-import IssuesManagement from "./components/IssuesManagement";
+import CountBox from "./components/CountBox";
+
 
 const App = () => {
   return (
     <div>
       <Navbar></Navbar>
 
-      <IssuesManagement></IssuesManagement>
+      <CountBox></CountBox>
 
       <Toggle_btns></Toggle_btns>
 
