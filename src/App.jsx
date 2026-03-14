@@ -20,7 +20,7 @@ const App = () => {
       <CountBox></CountBox>
 
      {/* toggling-btns design */}
-     <Suspense>
+     <Suspense fallback={"Loading......"}>
        <Toggle_btns fetchPromise={fetchPromise}></Toggle_btns>
      </Suspense>
      
