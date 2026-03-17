@@ -1,182 +1,112 @@
 [
   {
     "id": 1,
-    "name": "Sabbir Hossain",
+    "name": "Pori Moni",
     "age": 22,
-    "email": "sabbir@example.com",
-    "course": "CSE",
+    "email": "pori@skintolet.com",
+    "category": "Film Actress",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTt9rHA_WEoWwdOVE3xicblcK83RA9EKvBbg&s",
+    "subject": "Bangladeshi Cinema",
+    "description": "Famous for leading roles in Bangladeshi films."
   },
   {
     "id": 2,
     "name": "Oshin",
     "age": 24,
     "email": "oshin@example.com",
-    "course": "EEE",
+    "category": "TV Actress",
     "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHN0f0fULo2nWsk2rLNdH7GsH5J6oZsNwKvYe3_pN4VA&s",
+    "subject": "Television Series",
+    "description": "Known for popular TV serials and drama roles."
   },
   {
     "id": 3,
     "name": "Keya Payel",
     "age": 23,
     "email": "keyapayel@example.com",
-    "course": "BBA",
+    "category": "Model",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/3.jpg"
+    "image": "https://pbs.twimg.com/media/FVJwo0pUUAEl8Te.jpg",
+    "subject": "Fashion & Photoshoots",
+    "description": "Active in fashion modeling and commercial photoshoots."
   },
   {
     "id": 4,
-    "name": "Nusrat Jahan",
+    "name": "Nusrat Faria",
     "age": 21,
     "email": "nusrat@example.com",
-    "course": "CSE",
+    "category": "Film Actress",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9wwyeHOWQg-AWmvzunB0yYjCYrVPyvFJYg&s",
+    "subject": "Cinema & Music Videos",
+    "description": "Appeared in films, music videos, and commercials."
   },
   {
     "id": 5,
-    "name": "Tanvir Hasan",
+    "name": "Maria Mim",
     "age": 25,
-    "email": "tanvir@example.com",
-    "course": "Civil",
+    "email": "maria@example.com",
+    "category": "Model",
     "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ZWv6mihu3eCBI-SR5ndDFOUCD34IzcVT9xnltPSQXXKX5FK67fGbLQU&s",
+    "subject": "Commercial Modeling",
+    "description": "Focuses on print and TV commercial modeling."
   },
   {
     "id": 6,
-    "name": "Mim Akter",
-    "age": 22,
-    "email": "mim@example.com",
-    "course": "Pharmacy",
+    "name": "Joya Ahsan",
+    "age": 31,
+    "email": "joya@example.com",
+    "category": "Film Actress",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    "image": "data:image/jpeg;base64,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",
+    "subject": "Acting & Drama",
+    "description": "Renowned actress in Bangladeshi cinema and theatre."
   },
   {
     "id": 7,
-    "name": "Rafi Islam",
-    "age": 23,
-    "email": "rafi@example.com",
-    "course": "CSE",
+    "name": "Rukaiya Jahan Chamak",
+    "age": 28,
+    "email": "chamak@example.com",
+    "category": "Film Actress",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlg2xqYm6sBlgoaWnxhHJ3vaDr9jgFEFmA5bUCJgAexEQZf-9XrF8RkNg&s",
+    "subject": "Movies & TV Appearances",
+    "description": "Award-winning actress and former model."
   },
   {
     "id": 8,
-    "name": "Sadia Khan",
-    "age": 20,
-    "email": "sadia@example.com",
-    "course": "BBA",
-    "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/women/8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Jahid Hasan",
+    "name": "Tanjin Tisha",
     "age": 26,
-    "email": "jahid@example.com",
-    "course": "EEE",
+    "email": "tisha@example.com",
+    "category": "TV Actress",
     "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    "image": "data:image/jpeg;base64,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",
+    "subject": "Television Drama",
+    "description": "Popular face on TV dramas and serials."
+  },  
+   {
+    "id": 9,
+    "name": "Mahia Mahi",
+    "age": 35,
+    "email": "mahi@example.com",
+    "category": "Film Actress",
+    "status": "active",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVJx2JhavXC08Yk1TtdFfbX7oXVQjUem2T5ekDcoThDTjTUzkfeRXtsMw&s",
+    "subject": "Cinema & Modeling",
+    "description": "Veteran actress and fashion model."
   },
   {
     "id": 10,
-    "name": "Farhan Ahmed",
-    "age": 24,
-    "email": "farhan@example.com",
-    "course": "Civil",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Ayesha Rahman",
-    "age": 21,
-    "email": "ayesha@example.com",
-    "course": "CSE",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Imran Hossain",
-    "age": 27,
-    "email": "imran@example.com",
-    "course": "EEE",
+    "name": "Russian",
+    "age": 33,
+    "email": "rassian@example.com",
+    "category": "Film Actress",
     "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/men/12.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Nusrat Faria Akter",
-    "age": 22,
-    "email": "nusratfaria@example.com",
-    "course": "Pharmacy",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/13.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Rakib Chowdhury",
-    "age": 23,
-    "email": "rakib@example.com",
-    "course": "BBA",
-    "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/men/14.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Nayeem Islam",
-    "age": 25,
-    "email": "nayeem@example.com",
-    "course": "CSE",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/15.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Tania Islam",
-    "age": 20,
-    "email": "tania@example.com",
-    "course": "Civil",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/16.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Arif Mahmud",
-    "age": 26,
-    "email": "arif@example.com",
-    "course": "EEE",
-    "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/men/17.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Labib Hasan",
-    "age": 22,
-    "email": "labib@example.com",
-    "course": "CSE",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/men/18.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Runa Akter",
-    "age": 21,
-    "email": "runa@example.com",
-    "course": "BBA",
-    "status": "active",
-    "image": "https://randomuser.me/api/portraits/women/19.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Shakib Ahmed",
-    "age": 24,
-    "email": "shakib@example.com",
-    "course": "Civil",
-    "status": "inactive",
-    "image": "https://randomuser.me/api/portraits/men/20.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6EZUpld-sLl3n6SdCA_HYxdbuCFkL2oHUbw&s",
+    "subject": "Acting Career",
+    "description": "One of the most recognized actresses in Bangladeshi films."
   }
 ]

@@ -40,10 +40,14 @@ const Toggle_btns = ({ fetchPromise }) => {
       <div>
         {intialData.map((issue) => {
           return (
-            <div key={issue.id}>
-              <img src={issue.image} width="80" />
-              <h2>{issue.name}</h2>
-              <p>{issue.email}</p>
+            <div
+              key={issue.id}
+              className="shadow-md rounded-md cursor-pointer border-slate-100">
+              <div>
+                <img src={issue.image} title={issue.name} alt={issue.name}  className="w-20 h-20 rounded-full" />
+                <h2 className="font-semibold text-lg">{issue.name}</h2>
+                <p>{issue.email}</p>
+              </div>
             </div>
           );
         })}
