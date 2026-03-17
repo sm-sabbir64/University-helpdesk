@@ -58,8 +58,8 @@ const Toggle_btns = ({ fetchPromise }) => {
               <div className="flex justify-between">
                 <h2 className="font-bold text-[24px]">{issue.subject}</h2>
                 <div>
-                  <span className={`font-semibold py-1 px-2 shadow ${issue.priority == "High"? "text-red-500 bg-red-100": issue.priority == "Medium"? "text-yellow-500 bg-yellow-100": "text-green-500 bg-green-100"}`}>{issue.priority}</span>
-                  <span>{issue.status}</span>
+                  <span className={`font-semibold py-1 px-2 shadow mr-2 rounded-md ${issue.priority == "High"? "text-red-500 bg-red-100": issue.priority == "Medium"? "text-yellow-500 bg-yellow-100": "text-green-500 bg-green-100"}`}>{issue.priority}</span>
+                  <span className={`font-semibold py-1 px-2 shadow mr-2 rounded-md ${issue.status == "Pending"? "text-red-500 bg-red-100": issue.status == "Submited"? "text-yellow-500 bg-yellow-100": "text-green-500 bg-green-100"}`}>{issue.status}</span>
                 </div>
               </div>
 
