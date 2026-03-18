@@ -1,6 +1,8 @@
 import Container from "./Container";
 
-const CountBox = () => {
+const CountBox = ({data}) => {
+  console.log(data);
+  
   return (
     <> 
       <Container>
