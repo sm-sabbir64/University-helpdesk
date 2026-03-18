@@ -3,7 +3,6 @@ import Container from "./Container";
 import Card from "./Card";
 
 
-
 const Toggle_btns = ({ fetchPromise }) => {
   const [toggleStatus, setToggleStatus] = useState("All");
   const intialData = use(fetchPromise);
@@ -11,10 +10,8 @@ const Toggle_btns = ({ fetchPromise }) => {
   // console.log(data);
 
 
-
   return (
     <>
-     
       <Container>
         <div className="flex justify-end gap-1 mb-12 my-12 mx-8">
           <button
